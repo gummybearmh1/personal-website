@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joana Promise Mhone - Personal Webpage</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #d4af37;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      nav {
+        text-align: center;
+        margin: 20px 0;
+      }
+      nav a {
+        color: #d4af37;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.2em;
+      }
+      section {
+        padding: 20px;
+      }
+      section h2 {
+        font-size: 2em;
+        border-bottom: 2px solid #d4af37;
+        padding-bottom: 10px;
+      }
+      .projects,
+      .certifications,
+      .blog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .project,
+      .certification,
+      .blog-post {
+        background-color: #222;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+        width: 45%;
+      }
+      .contact-form {
+        background-color: #222;
+        padding: 20px;
+        border-radius: 10px;
+        width: 50%;
+        margin: 0 auto;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+      }
+      .contact-form input[type="submit"] {
+        background-color: #d4af37;
+        color: #000;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Joana Promise Mhone</h1>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am Joana Promise Mhone, a dedicated professional with expertise
+        in cybersecurity analysis, full stack web development, project
+        management, and data analysis. I am passionate about leveraging
+        technology to solve complex problems and deliver impactful solutions.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project Title 1</h3>
+          <p>Brief description of the project.</p>
+        </div>
+        <div class="project">
+          <h3>Project Title 2</h3>
+          <p>Brief description of the project.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="certifications">
+        <div class="certification">
+          <h3>Certification Title 1</h3>
+          <p>Brief description of the certification.</p>
+        </div>
+        <div class="certification">
+          <h3>Certification Title 2</h3>
+          <p>Brief description of the certification.</p>
+        </div>
+        <!-- Add more certifications as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <div class="blog">
+        <div class="blog-post">
+          <h3>Blog Post Title 1</h3>
+          <p>Brief description of the blog post.</p>
+        </div>
+        <div class="blog-post">
+          <h3>Blog Post Title 2</h3>
+          <p>Brief description of the blog post.</p>
+        </div>
+        <!-- Add more blog posts as needed -->
+      </div>
+    </section>
+  </body>
+</html>
