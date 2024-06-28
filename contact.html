@@ -12,40 +12,61 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Contact Form</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles/contact.css" />
       </head>
       <body>
         <div class="container">
           <img class="image" src="https://via.placeholder.com/508x657" />
 
           <div class="form-container">
-            <div class="form-group">
-              <div class="label">First name</div>
-              <div class="input">
-                <div class="input-text">Jane</div>
+            <form action="">
+              <div class="form-group">
+                <div class="label">First name</div>
+                <input
+                  type="text"
+                  id="first"
+                  placeholder="Enter first name"
+                  name="input"
+                  class="input"
+                />
               </div>
-            </div>
-            <div class="form-group">
-              <div class="label">Email address</div>
-              <div class="input">
-                <div class="input-text">email@janesfakedomain.net</div>
+
+              <div class="form-group">
+                <div class="label">last name</div>
+                <input
+                  type="text"
+                  id="last"
+                  placeholder="Enter last name"
+                  name="last"
+                  class="input"
+                />
               </div>
-            </div>
-            <div class="form-group message">
-              <div class="label">Your message</div>
-              <div class="input">
-                <div class="input-text">Enter your question or message</div>
+              <div class="form-group">
+                <div class="label">email</div>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Enter your email"
+                  name="input"
+                  class="input"
+                />
               </div>
-            </div>
-            <div class="submit">
-              <div class="submit-text">Submit</div>
-            </div>
-            <div class="form-group">
-              <div class="label">Last name</div>
-              <div class="input">
-                <div class="input-text">Smitherton</div>
+
+              <div class="form-group">
+                <div class="label">Your message</div>
+                <input
+                  type="text"
+                  id="message"
+                  placeholder="Write your message"
+                  name="input"
+                  class="input box"
+                />
               </div>
-            </div>
+                <button type="submit" class="submit" id="submission">
+                  submit
+                </button>
+              </div>
+            </form>
           </div>
 
           <div class="header">
