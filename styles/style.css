@@ -17,7 +17,7 @@ a {
 .projects-container {
   width: 1277px;
   left: 81px;
-  top: 481px;
+  top: 970px;
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -71,7 +71,7 @@ a {
 .portfolio-intro {
   height: 173px;
   left: 81px;
-  top: 244px;
+  top: 800px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -302,4 +302,370 @@ a {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  height: 1285px;
+  position: relative;
+  background: white;
+}
+
+.image {
+  width: 590px;
+  height: 547px;
+  position: absolute;
+  left: 670px;
+  top: 100px;
+  background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
+  border-radius: 10px;
+}
+
+.content {
+  height: 521px;
+  width: 520px;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.title {
+  align-self: stretch;
+  color: black;
+  font-size: 64px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.subtitle {
+  align-self: stretch;
+  color: #828282;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.body {
+  align-self: stretch;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.footer {
+  width: 1440px;
+  height: 264px;
+  position: absolute;
+  background: white;
+  top: 1021px;
+}
+
+.column {
+  height: 168px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.footer-item {
+  align-self: stretch;
+  color: #454545;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.header {
+  width: 1500px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background: white;
+}
+
+.header-nav {
+  left: 900px;
+  top: 30px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 48px;
+}
+
+.header-nav-item {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.images {
+  width: 620px;
+  height: 657px;
+  left: 700px;
+  position: absolute;
+  background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
+  border-radius: 8px;
+}
+
+.form-container {
+  width: 626px;
+  height: 488px;
+  left: 80px;
+  top: 300px;
+  position: absolute;
+}
+
+.message {
+  width: 626px;
+  height: 194px;
+}
+
+.label {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.input {
+  padding: 12px 16px;
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  border: 1px #e0e0e0 solid;
+  gap: 8px;
+}
+
+.input-text {
+  color: #828282;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.submit {
+  height: 62px;
+  width: 25px;
+  padding: 16px 32px;
+  font: 28px;
+  color: #e0e0e0;
+  background: black;
+  margin-top: 20px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.submit-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.header-title2 {
+  position: absolute;
+  top: 1500px;
+  left: 30px;
+  align-self: stretch;
+  color: black;
+  font-size: 64px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.header-subtitle2 {
+  position: absolute;
+  top: 1600px;
+  align-self: stretch;
+  width: 550px;
+  color: #828282;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.footer {
+  width: 1440px;
+  height: 264px;
+  left: 0px;
+  top: 1021px;
+  position: absolute;
+  background: white;
+}
+
+.footer-content {
+  height: 168px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.footer-content:nth-child(2) {
+  left: 736px;
+  top: 48px;
+}
+
+.footer-content:nth-child(3) {
+  left: 955px;
+  top: 48px;
+}
+
+.footer-content:nth-child(4) {
+  left: 1173px;
+  top: 48px;
+}
+
+.footer-title {
+  align-self: stretch;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.footer-item {
+  align-self: stretch;
+  color: #454545;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.footer-site-name {
+  left: 80px;
+  top: 52px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.footer-social-icons {
+  left: 80px;
+  top: 176px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.social-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-divider {
+  width: 1280px;
+  height: 0px;
+  left: 80px;
+  top: 1px;
+  position: absolute;
+  border: 1px #e6e6e6 solid;
+}
+
+.navbar {
+  width: 1280px;
+  height: 40px;
+  left: 900px;
+  top: 40px;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  gap: 643px;
+  display: flex;
+}
+
+.navbar-links {
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.navbar-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.navbar-site-name {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 80%;
+  text-align: center;
+  font-size: 15px;
+}
+.box {
+  width: 80%;
+  height: 50%;
+}
+.cont {
+  position: absolute;
+  top: 900px;
 }
