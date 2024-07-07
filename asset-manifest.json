@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.272c52b6.css",
+    "main.js": "/personal-website/static/js/main.e3a08a94.js",
+    "static/js/453.195b869a.chunk.js": "/personal-website/static/js/453.195b869a.chunk.js",
+    "static/media/keyboard.jpg": "/personal-website/static/media/keyboard.1de0d682d43c4dae3479.jpg",
+    "static/media/first.png": "/personal-website/static/media/first.41843f825be4ec06a888.png",
+    "static/media/SheCodes.png": "/personal-website/static/media/SheCodes.9ea823faa72f75b22c95.png",
+    "static/media/profile.jpg": "/personal-website/static/media/profile.6a5ffb28952538f61da4.jpg",
+    "static/media/second.png": "/personal-website/static/media/second.84f8935699a11e13c561.png",
+    "static/media/coursera4.jpg": "/personal-website/static/media/coursera4.46750cd1f2b9d13c534b.jpg",
+    "static/media/coursera.jpg": "/personal-website/static/media/coursera.6ab74e5a8b7d2e4acbd6.jpg",
+    "static/media/coursera3.jpg": "/personal-website/static/media/coursera3.6a87a7c5b34721ef7ecb.jpg",
+    "static/media/coursera2.jpg": "/personal-website/static/media/coursera2.92ce298d739de218d77b.jpg",
+    "static/media/cisco.jpg": "/personal-website/static/media/cisco.c40d02ae2862d0922963.jpg",
+    "static/media/kaya.jpg": "/personal-website/static/media/kaya.eb961710cfcab63d6da7.jpg",
+    "static/media/telstra.jpg": "/personal-website/static/media/telstra.c6374e5e11b13b52d28f.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.272c52b6.css.map": "/personal-website/static/css/main.272c52b6.css.map",
+    "main.e3a08a94.js.map": "/personal-website/static/js/main.e3a08a94.js.map",
+    "453.195b869a.chunk.js.map": "/personal-website/static/js/453.195b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.272c52b6.css",
+    "static/js/main.e3a08a94.js"
+  ]
+}
