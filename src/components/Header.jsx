@@ -18,28 +18,40 @@ const Header = () => {
         <a
           href="#about-me"
           className="nav-link"
-          onClick={() => scrollToSection("about-me")}
+          onClick={(e) => {
+            e.preventDefault(); // Prevent default behavior of anchor tag
+            scrollToSection("about-me");
+          }}
         >
           About Me
         </a>
         <a
           href="#projects"
           className="nav-link"
-          onClick={() => scrollToSection("projects")}
+          onClick={(e) => {
+            e.preventDefault(); // Prevent default behavior of anchor tag
+            scrollToSection("projects");
+          }}
         >
           Projects
         </a>
         <a
           href="#certificates"
           className="nav-link"
-          onClick={() => scrollToSection("certificates")}
+          onClick={(e) => {
+            e.preventDefault(); // Prevent default behavior of anchor tag
+            scrollToSection("certificates");
+          }}
         >
           Certificates
         </a>
         <a
           href="#contact"
           className="nav-link"
-          onClick={() => scrollToSection("contact")}
+          onClick={(e) => {
+            e.preventDefault(); // Prevent default behavior of anchor tag
+            scrollToSection("contact");
+          }}
         >
           Contact
         </a>

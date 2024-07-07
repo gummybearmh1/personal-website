@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
 a {
@@ -9,17 +11,17 @@ a {
 
 .header {
   width: 100%; /* Use 100% for full width responsiveness */
-  height: 80px;
+  height: 60px;
   left: 0;
   top: 0;
   position: fixed;
-  background: white;
+  background: #a5c5fc;
   z-index: 1000; /* Ensures the header is on top of other components */
 }
 
 .navbar {
   left: 800px;
-  top: 30px;
+  top: 20px;
   position: absolute;
   display: flex;
   justify-content: flex-end;
@@ -38,7 +40,6 @@ a {
   width: 1440px;
   height: 900px;
   position: relative;
-  background: white;
   margin-top: 80px; /* Ensure content is not hidden under the fixed header */
 }
 
@@ -49,7 +50,7 @@ a {
   left: 670px;
   top: 100px;
   background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 .content {
@@ -72,6 +73,7 @@ a {
   font-family: Inter;
   font-weight: 700;
   word-wrap: break-word;
+  padding-top: 150px;
 }
 .projects-container {
   width: 1277px;
@@ -432,4 +434,7 @@ a {
 }
 html {
   scroll-behavior: smooth;
+}
+.contact-info {
+  padding-top: 50px;
 }
