@@ -10,23 +10,23 @@ a {
 }
 
 .header {
-  width: 100%; /* Use 100% for full width responsiveness */
+  width: 100%;
   height: 60px;
   left: 0;
   top: 0;
   position: fixed;
   background: #a5c5fc;
-  z-index: 1000; /* Ensures the header is on top of other components */
+  z-index: 1000;
 }
 
 .navbar {
-  left: 800px;
   top: 20px;
+  right: 20px;
   position: absolute;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 48px;
+  gap: 24px;
 }
 
 .nav-link {
@@ -37,75 +37,77 @@ a {
 }
 
 .container {
-  width: 1440px;
-  height: 900px;
-  position: relative;
-  margin-top: 80px; /* Ensure content is not hidden under the fixed header */
+  width: 100%;
+  max-width: 1440px;
+  margin: 80px auto 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .image {
-  width: 590px;
-  height: 547px;
-  position: absolute;
-  left: 670px;
-  top: 100px;
+  width: 100%;
+  max-width: 590px;
+  height: auto;
+  margin: 0 auto;
   background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
   border-radius: 50%;
 }
 
 .content {
-  height: 521px;
-  width: 520px;
-  position: absolute;
-  left: 80px;
-  top: 100px;
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
 }
 
 .title {
-  align-self: stretch;
   color: black;
-  font-size: 64px;
-  font-family: Inter;
+  font-size: 2rem;
   font-weight: 700;
   word-wrap: break-word;
-  padding-top: 150px;
+  padding-top: 50px;
+  text-align: center;
 }
+
+.body {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  word-wrap: break-word;
+  text-align: center;
+  padding-top: 20px;
+}
+
 .projects-container {
-  width: 1277px;
-  left: 81px;
-  top: 1100px;
-  position: absolute;
+  width: 100%;
+  max-width: 1277px;
+  margin: 40px auto 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
 .project {
-  width: 621px;
-  height: 435px;
+  width: 100%;
+  max-width: 621px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   gap: 24px;
 }
 
 .project-image {
-  width: 600px;
-  height: 341px;
+  width: 100%;
+  height: auto;
   background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
   border-radius: 8px;
 }
 
 .project-description {
-  align-self: stretch;
-  height: 70px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,56 +116,44 @@ a {
 }
 
 .project-title {
-  align-self: stretch;
   color: black;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2rem;
 }
 
 .project-subtitle {
-  align-self: stretch;
   color: #828282;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 1.5rem;
 }
-.title2 {
-  align-self: stretch;
-  color: black;
-  font-size: 64px;
-  font-family: Inter;
-  font-weight: 700;
-  word-wrap: break-word;
-  padding-bottom: 70px;
-}
+
 .images {
-  width: 720px;
-  height: 657px;
-  top: 2000px;
-  left: 600px;
-  position: absolute;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 40px auto;
   background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
   border-radius: 8px;
 }
 
 .form-container {
-  width: 400px;
-  left: 100px;
-  top: 2000px;
-  position: absolute;
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
 }
 
 .message {
-  width: 626px;
+  width: 100%;
   height: 194px;
 }
 
 .label {
   color: black;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   word-wrap: break-word;
 }
 
@@ -173,106 +163,50 @@ a {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   border: 1px #e0e0e0 solid;
-  gap: 8px;
-}
-
-.input-text {
-  color: #828282;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+  width: 100%;
+  margin-top: 8px;
 }
 
 .submit {
   padding: 10px 32px;
-  font: 28px;
+  font-size: 1.5rem;
   color: #e0e0e0;
   background: black;
   margin-top: 20px;
   border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  width: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .submit-text {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 1.5rem;
 }
 
-.header-title2 {
-  align-self: stretch;
-  color: black;
-  font-size: 64px;
-  font-weight: 700;
-  word-wrap: break-word;
-}
-
-.header-subtitle2 {
-  padding-bottom: 50px;
-  align-self: stretch;
-  width: 500px;
-  color: #828282;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 36px;
-  word-wrap: break-word;
-}
-
-.input {
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  width: 80%;
-  text-align: center;
-  font-size: 15px;
-}
-.box {
-  width: 80%;
-  height: 50%;
-}
-.cont {
-  position: absolute;
-  top: 900px;
-}
-.conts {
-  position: absolute;
-  left: 90px;
-  top: 2400px;
-}
 .portfolio-intro {
-  height: 173px;
-  left: 81px;
-  top: 800px;
-  position: absolute;
+  height: auto;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   gap: 24px;
 }
 
 .portfolio-title {
-  align-self: stretch;
   color: black;
-  font-size: 64px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .portfolio-subtitle {
-  align-self: stretch;
   color: #828282;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2rem;
 }
 
-.dropdown-content img {
-  display: inline-block;
-  margin-right: 10px;
-}
 .dropdown-content {
   display: flex;
   overflow-x: auto;
@@ -283,101 +217,16 @@ a {
 .certificate-item {
   position: relative;
   margin-right: 20px;
-}
-
-.certificate-item img {
-  display: block;
   width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.certificate-item img:hover {
-  transform: scale(1.1);
-}
-
-.certificate-tooltip {
-  position: absolute;
-  bottom: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  padding: 5px 10px;
-  font-size: 14px;
-  white-space: nowrap;
-  display: none;
-}
-
-.certificate-item:hover .certificate-tooltip {
-  display: block;
-}
-.dropdown-content {
-  display: flex;
-  overflow-x: auto;
-  padding: 10px;
-  white-space: nowrap;
-}
-
-.certificate-item {
-  position: relative;
-  margin-right: 20px;
-  display: inline-block;
-}
-
-.certificate-item img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.certificate-item:hover img {
-  transform: scale(1.1);
-}
-
-.certificate-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.certificate-item:hover .certificate-text {
-  opacity: 1;
-}
-
-.certificate-text p {
-  margin: 0;
-}
-
-.certificate-link-text {
-  font-size: 12px;
-}
-.certificate-item {
-  position: relative;
-  margin-right: 20px;
-  display: inline-block;
-  width: 400px; /* Adjust width as needed */
-  height: 300px; /* Adjust height as needed */
+  max-width: 400px;
+  height: 300px;
 }
 
 .certificate-item img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the entire container */
+  object-fit: cover;
   border: 1px solid #ccc;
   border-radius: 5px;
   transition: transform 0.2s ease-in-out;
@@ -412,29 +261,112 @@ a {
 .certificate-link-text {
   font-size: 12px;
 }
+
 .title3 {
   padding-bottom: 40px;
 }
-.body {
-  align-self: stretch;
-  color: black;
-  font-size: 20px;
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 30px;
-  word-wrap: break-word;
-  padding-top: 30px;
-}
+
 .subheading {
   color: #828282;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 200;
-  line-height: 36px;
+  line-height: 2rem;
   word-wrap: break-word;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .contact-info {
   padding-top: 50px;
+}
+
+/* Responsive Styles */
+@media (min-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .body {
+    font-size: 1.2rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-title {
+    font-size: 3rem;
+  }
+
+  .portfolio-subtitle {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .image {
+    margin-right: 40px;
+    max-width: 50%;
+  }
+
+  .content {
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .body {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .projects-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .project {
+    width: 45%;
+  }
+
+  .images {
+    max-width: 50%;
+  }
+
+  .form-container {
+    max-width: 50%;
+  }
+
+  .portfolio-intro {
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .portfolio-title {
+    font-size: 3.5rem;
+  }
+
+  .portfolio-subtitle {
+    font-size: 2.5rem;
+  }
 }
