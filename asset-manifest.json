@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.272c52b6.css",
+    "main.css": "/personal-website/static/css/main.c205be1d.css",
     "main.js": "/personal-website/static/js/main.e3a08a94.js",
     "static/js/453.195b869a.chunk.js": "/personal-website/static/js/453.195b869a.chunk.js",
     "static/media/keyboard.jpg": "/personal-website/static/media/keyboard.1de0d682d43c4dae3479.jpg",
@@ -16,12 +16,12 @@
     "static/media/kaya.jpg": "/personal-website/static/media/kaya.eb961710cfcab63d6da7.jpg",
     "static/media/telstra.jpg": "/personal-website/static/media/telstra.c6374e5e11b13b52d28f.jpg",
     "index.html": "/personal-website/index.html",
-    "main.272c52b6.css.map": "/personal-website/static/css/main.272c52b6.css.map",
+    "main.c205be1d.css.map": "/personal-website/static/css/main.c205be1d.css.map",
     "main.e3a08a94.js.map": "/personal-website/static/js/main.e3a08a94.js.map",
     "453.195b869a.chunk.js.map": "/personal-website/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.272c52b6.css",
+    "static/css/main.c205be1d.css",
     "static/js/main.e3a08a94.js"
   ]
 }
