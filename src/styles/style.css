@@ -1,8 +1,6 @@
 body {
-  margin: 0;
+  margin: 30px;
   font-family: "Inter", sans-serif;
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
 a {
@@ -40,31 +38,31 @@ a {
   width: 100%;
   max-width: 1440px;
   margin: 80px auto 0 auto;
-  padding: 20px;
+  padding-bottom: 200px;
   box-sizing: border-box;
 }
 
 .image {
   width: 100%;
+  position: static;
   max-width: 590px;
-  height: auto;
   margin: 0 auto;
   background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
-  border-radius: 50%;
+  clip-path: circle(44%);
 }
 
 .content {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  max-width: 1200px;
+  display: block;
+  flex-direction: row;
   align-items: center;
   gap: 24px;
+  padding-top: 30px;
 }
 
 .title {
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem; /* Unified heading size */
   font-weight: 700;
   word-wrap: break-word;
   padding-top: 50px;
@@ -73,7 +71,7 @@ a {
 
 .body {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem; /* Unified body text size */
   font-weight: 500;
   line-height: 1.5rem;
   word-wrap: break-word;
@@ -117,14 +115,13 @@ a {
 
 .project-title {
   color: black;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 2rem;
+  font-size: 2.5rem; /* Unified heading size */
+  font-weight: 700;
 }
 
 .project-subtitle {
   color: #828282;
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* Unified body text size */
   font-weight: 500;
   line-height: 1.5rem;
 }
@@ -141,7 +138,6 @@ a {
 .form-container {
   width: 100%;
   max-width: 400px;
-  margin: 40px auto;
 }
 
 .message {
@@ -151,7 +147,7 @@ a {
 
 .label {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem; /* Unified body text size */
   font-weight: 500;
   line-height: 1.5rem;
   word-wrap: break-word;
@@ -169,7 +165,7 @@ a {
 
 .submit {
   padding: 10px 32px;
-  font-size: 1.5rem;
+  font-size: 1.2rem; /* Unified body text size */
   color: #e0e0e0;
   background: black;
   margin-top: 20px;
@@ -180,7 +176,7 @@ a {
 
 .submit-text {
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.2rem; /* Unified body text size */
   font-weight: 500;
   line-height: 1.5rem;
 }
@@ -196,22 +192,25 @@ a {
 
 .portfolio-title {
   color: black;
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* Unified heading size */
   font-weight: 700;
 }
 
 .portfolio-subtitle {
   color: #828282;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 2rem;
+  font-size: 1.2rem; /* Unified body text size */
+  font-weight: 500;
+  line-height: 1.5rem;
 }
 
 .dropdown-content {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding: 10px;
   white-space: nowrap;
+}
+.certificates {
+  padding-top: 300px;
 }
 
 .certificate-item {
@@ -224,7 +223,7 @@ a {
 
 .certificate-item img {
   display: block;
-  width: 100%;
+  width: auto;
   height: 100%;
   object-fit: cover;
   border: 1px solid #ccc;
@@ -268,10 +267,27 @@ a {
 
 .subheading {
   color: #828282;
-  font-size: 1.5rem;
-  font-weight: 200;
-  line-height: 2rem;
+  font-size: 1.2rem; /* Unified body text size */
+  font-weight: 500;
+  line-height: 1.5rem;
   word-wrap: break-word;
+}
+.cont {
+  padding-top: 300px;
+}
+.nav-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: #5285dd; /* Change color on hover */
+}
+.link {
+  padding-left: 65px;
 }
 
 html {
@@ -293,19 +309,19 @@ html {
   }
 
   .project-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .project-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .portfolio-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .portfolio-subtitle {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -324,17 +340,17 @@ html {
   }
 
   .content {
-    align-items: flex-start;
+    align-items: baseline;
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     padding-top: 0;
   }
 
   .body {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: left;
   }
 
@@ -363,10 +379,76 @@ html {
   }
 
   .portfolio-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   .portfolio-subtitle {
+    font-size: 1.2rem;
+  }
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 80px auto 0 auto;
+  padding-bottom: 300px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Ensure content is displayed in a column on small screens */
+  align-items: center;
+  gap: 24px;
+  text-align: center; /* Center align text on small screens */
+}
+
+.image {
+  width: 100%;
+  max-width: 590px;
+  height: auto;
+  margin: 0 auto;
+  background: linear-gradient(0deg, #f7f7f7 0%, #f7f7f7 100%);
+  clip-path: circle(44%);
+}
+
+.title {
+  color: black;
+  font-size: 2.5rem; /* Unified heading size */
+  font-weight: 700;
+  word-wrap: break-word;
+  text-align: center; /* Adjust as needed */
+}
+
+.body {
+  color: black;
+  font-size: 1.2rem; /* Unified body text size */
+  font-weight: 500;
+  line-height: 1.5rem;
+  word-wrap: break-word;
+  text-align: center; /* Adjust as needed */
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row; /* Ensure content is displayed in a row on larger screens */
+    justify-content: center; /* Center align items horizontally */
+    text-align: left; /* Align text to the left on larger screens */
+  }
+
+  .image {
+    max-width: 50%; /* Adjust image size on larger screens */
+    order: 2; /* Ensure image comes second in the row */
+  }
+
+  .title {
     font-size: 2.5rem;
+    text-align: left; /* Adjust title alignment on larger screens */
+    padding-top: 0;
+  }
+
+  .body {
+    font-size: 1.2rem;
+    text-align: left; /* Adjust body text alignment on larger screens */
   }
 }

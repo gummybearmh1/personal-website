@@ -1,13 +1,11 @@
 import React from "react";
 import "../styles/style.css";
-import keyboardImg from "../assets/images/keyboard.jpg";
 
-const Contact = () => (
-  <div className="cont">
-    <img className="images" src={keyboardImg} alt="Keyboard" />
+const Contact = ({ id }) => (
+  <section id={id} className="cont">
     <div className="form-container">
       <div className="title title3">Contact</div>
-      <div className="header-subtitle2">
+      <div className="project-subtitle">
         I welcome any inquiries and collaborations. Please feel free to reach
         out with any questions or project proposals.
       </div>
@@ -73,11 +71,13 @@ const Contact = () => (
           <strong>GitHub:</strong>{" "}
           <a href="https://github.com/bsc-com-ne-11-19">Student</a>
           <br />
-          <a href="https://github.com/gummybearmh1">Personal </a>
+          <a href="https://github.com/joanamhone" className="link">
+            Personal{" "}
+          </a>
         </p>
       </div>
     </div>
-  </div>
+  </section>
 );
 
 export default Contact;

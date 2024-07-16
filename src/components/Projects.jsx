@@ -2,8 +2,8 @@ import React from "react";
 import Project from "./Project";
 import "../styles/style.css";
 
-const Projects = () => (
-  <div>
+const Projects = ({ id }) => (
+  <section id={id}>
     <div className="projects-container">
       <Project
         title="Soil Analysis and Crop Recommendation System"
@@ -17,7 +17,7 @@ const Projects = () => (
       />
       {/* Add more Project components as needed */}
     </div>
-  </div>
+  </section>
 );
 
 export default Projects;

@@ -11,7 +11,7 @@ import kaya from "../certs/kaya.jpg";
 import telstra from "../certs/telstra.jpg";
 import She from "../certs/SheCodes.png";
 
-const Certificates = () => {
+const Certificates = ({ id }) => {
   const [activeDropdown, setActiveDropdown] = useState(null);
 
   const toggleDropdown = (index) => {
@@ -87,7 +87,7 @@ const Certificates = () => {
   ];
 
   return (
-    <div className="content" style={{ left: "80px", top: "2000px" }}>
+    <section id={id} className="certificates">
       <div className="portfolio-title">Certificates</div>
       <div className="subheading">
         Browse through my professional achievements
@@ -113,12 +113,7 @@ const Certificates = () => {
                     className="certificate-link"
                   >
                     <div className="certificate-item">
-                      <img
-                        src={certificate.image}
-                        width="150"
-                        height="150"
-                        alt={certificate.name}
-                      />
+                      <img src={certificate.image} alt={certificate.name} />
                       <div className="certificate-text">
                         <p>{certificate.name}</p>
                         <p className="certificate-link-text">
@@ -133,7 +128,7 @@ const Certificates = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
