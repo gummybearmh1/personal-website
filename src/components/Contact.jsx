@@ -4,7 +4,7 @@ import "../styles/style.css";
 const Contact = ({ id }) => (
   <section id={id} className="cont">
     <div className="form-container">
-      <div className="title title3">Contact</div>
+      <div className="title3">Contact</div>
       <div className="project-subtitle">
         I welcome any inquiries and collaborations. Please feel free to reach
         out with any questions or project proposals.

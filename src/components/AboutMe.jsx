@@ -13,7 +13,7 @@ const AboutMe = ({ id }) => (
           <br />
           <ReactTyped
             strings={[
-              " a network engineer fascinated by the ever-evolving fields of machine learning and AI.",
+              " a Network Engineer fascinated by the ever-evolving fields of Machine Learning and AI.",
               " I am deeply committed to cybersecurity.",
               " I thrive on creating awesome websites and mobile apps.",
             ]}
