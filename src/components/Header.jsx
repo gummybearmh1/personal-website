@@ -23,7 +23,7 @@ const Header = () => {
             scrollToSection("about-me");
           }}
         >
-          About Me
+          About
         </a>
         <a
           href="#projects"
